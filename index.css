@@ -260,6 +260,15 @@ footer .team-names span {
     gap: 20px;
   }
 
+  .dropdown-content {
+    position: static; 
+    width: 100%;
+  }
+
+  .dropdown-toggle {
+    cursor: pointer; 
+  }
+
   .search-box {
     width: 90%;
     margin: 20px auto;
