@@ -183,13 +183,14 @@
   
   @media (max-width: 768px) {
     .nav {
-      flex-direction: column;
-      padding: 20px;
+      flex-direction:row;
+      padding: 15px;
     }
   
     .nav-list {
-      flex-direction: column;
-      margin-top: 10px;
+      flex-direction: row;
+      align-items:flex-start;
+      gap: 20px;
     }
   
     .intro {
