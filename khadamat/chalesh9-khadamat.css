@@ -206,6 +206,15 @@
     .intro p {
       font-size: 16px;
     }
+    
+    .dropdown-content {
+      position: static; 
+      width: 100%;
+    }
+  
+    .dropdown-toggle {
+      cursor: pointer; 
+    }
   
     footer {
       padding: 20px 20px;
